@@ -1,0 +1,117 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/Lidia/.m2/repository/com/google/firebase/firebase-admin/8.1.0/firebase-admin-8.1.0.jar;C:/Users/Lidia/.m2/repository/com/google/api-client/google-api-client/1.32.1/google-api-client-1.32.1.jar;C:/Users/Lidia/.m2/repository/com/google/oauth-client/google-oauth-client/1.31.5/google-oauth-client-1.31.5.jar;C:/Users/Lidia/.m2/repository/com/google/http-client/google-http-client-gson/1.39.2/google-http-client-gson-1.39.2.jar;C:/Users/Lidia/.m2/repository/com/google/http-client/google-http-client-apache-v2/1.39.2/google-http-client-apache-v2-1.39.2.jar;C:/Users/Lidia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar;C:/Users/Lidia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar;C:/Users/Lidia/.m2/repository/com/google/api-client/google-api-client-gson/1.32.1/google-api-client-gson-1.32.1.jar;C:/Users/Lidia/.m2/repository/com/google/http-client/google-http-client/1.39.2/google-http-client-1.39.2.jar;C:/Users/Lidia/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar;C:/Users/Lidia/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar;C:/Users/Lidia/.m2/repository/io/opencensus/opencensus-api/0.28.0/opencensus-api-0.28.0.jar;C:/Users/Lidia/.m2/repository/io/opencensus/opencensus-contrib-http-util/0.28.0/opencensus-contrib-http-util-0.28.0.jar;C:/Users/Lidia/.m2/repository/com/google/api/api-common/1.10.4/api-common-1.10.4.jar;C:/Users/Lidia/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar;C:/Users/Lidia/.m2/repository/com/google/auto/value/auto-value-annotations/1.8.1/auto-value-annotations-1.8.1.jar;C:/Users/Lidia/.m2/repository/com/google/auth/google-auth-library-oauth2-http/0.26.0/google-auth-library-oauth2-http-0.26.0.jar;C:/Users/Lidia/.m2/repository/com/google/auth/google-auth-library-credentials/0.26.0/google-auth-library-credentials-0.26.0.jar;C:/Users/Lidia/.m2/repository/com/google/cloud/google-cloud-storage/1.118.0/google-cloud-storage-1.118.0.jar;C:/Users/Lidia/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar;C:/Users/Lidia/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:/Users/Lidia/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar;C:/Users/Lidia/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar;C:/Users/Lidia/.m2/repository/com/google/http-client/google-http-client-jackson2/1.39.2/google-http-client-jackson2-1.39.2.jar;C:/Users/Lidia/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar;C:/Users/Lidia/.m2/repository/com/google/apis/google-api-services-storage/v1-rev20210127-1.32.1/google-api-services-storage-v1-rev20210127-1.32.1.jar;C:/Users/Lidia/.m2/repository/com/google/code/gson/gson/2.8.7/gson-2.8.7.jar;C:/Users/Lidia/.m2/repository/com/google/cloud/google-cloud-core/1.95.4/google-cloud-core-1.95.4.jar;C:/Users/Lidia/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.3.2/proto-google-common-protos-2.3.2.jar;C:/Users/Lidia/.m2/repository/com/google/cloud/google-cloud-core-http/1.95.4/google-cloud-core-http-1.95.4.jar;C:/Users/Lidia/.m2/repository/com/google/http-client/google-http-client-appengine/1.39.2/google-http-client-appengine-1.39.2.jar;C:/Users/Lidia/.m2/repository/com/google/api/gax-httpjson/0.83.0/gax-httpjson-0.83.0.jar;C:/Users/Lidia/.m2/repository/com/google/api/gax/1.66.0/gax-1.66.0.jar;C:/Users/Lidia/.m2/repository/io/grpc/grpc-context/1.39.0/grpc-context-1.39.0.jar;C:/Users/Lidia/.m2/repository/com/google/api/grpc/proto-google-iam-v1/1.0.14/proto-google-iam-v1-1.0.14.jar;C:/Users/Lidia/.m2/repository/com/google/protobuf/protobuf-java/3.17.3/protobuf-java-3.17.3.jar;C:/Users/Lidia/.m2/repository/com/google/protobuf/protobuf-java-util/3.17.3/protobuf-java-util-3.17.3.jar;C:/Users/Lidia/.m2/repository/org/threeten/threetenbp/1.5.1/threetenbp-1.5.1.jar;C:/Users/Lidia/.m2/repository/com/google/cloud/google-cloud-firestore/2.6.1/google-cloud-firestore-2.6.1.jar;C:/Users/Lidia/.m2/repository/com/google/cloud/google-cloud-core-grpc/1.95.4/google-cloud-core-grpc-1.95.4.jar;C:/Users/Lidia/.m2/repository/io/grpc/grpc-core/1.39.0/grpc-core-1.39.0.jar;C:/Users/Lidia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar;C:/Users/Lidia/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar;C:/Users/Lidia/.m2/repository/com/google/api/grpc/proto-google-cloud-firestore-v1/2.6.1/proto-google-cloud-firestore-v1-2.6.1.jar;C:/Users/Lidia/.m2/repository/com/google/cloud/proto-google-cloud-firestore-bundle-v1/2.6.1/proto-google-cloud-firestore-bundle-v1-2.6.1.jar;C:/Users/Lidia/.m2/repository/io/opencensus/opencensus-contrib-grpc-util/0.28.0/opencensus-contrib-grpc-util-0.28.0.jar;C:/Users/Lidia/.m2/repository/io/grpc/grpc-protobuf/1.39.0/grpc-protobuf-1.39.0.jar;C:/Users/Lidia/.m2/repository/io/grpc/grpc-protobuf-lite/1.39.0/grpc-protobuf-lite-1.39.0.jar;C:/Users/Lidia/.m2/repository/io/grpc/grpc-api/1.39.0/grpc-api-1.39.0.jar;C:/Users/Lidia/.m2/repository/com/google/api/gax-grpc/1.66.0/gax-grpc-1.66.0.jar;C:/Users/Lidia/.m2/repository/io/grpc/grpc-auth/1.39.0/grpc-auth-1.39.0.jar;C:/Users/Lidia/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-netty-shaded-1.39.0.jar;C:/Users/Lidia/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-alts-1.39.0.jar;C:/Users/Lidia/.m2/repository/io/grpc/grpc-grpclb/1.39.0/grpc-grpclb-1.39.0.jar;C:/Users/Lidia/.m2/repository/org/conscrypt/conscrypt-openjdk-uber/2.5.1/conscrypt-openjdk-uber-2.5.1.jar;C:/Users/Lidia/.m2/repository/io/grpc/grpc-stub/1.39.0/grpc-stub-1.39.0.jar;C:/Users/Lidia/.m2/repository/com/google/guava/guava/30.1.1-android/guava-30.1.1-android.jar;C:/Users/Lidia/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar;C:/Users/Lidia/.m2/repository/io/netty/netty-codec-http/4.1.67.Final/netty-codec-http-4.1.67.Final.jar;C:/Users/Lidia/.m2/repository/io/netty/netty-common/4.1.67.Final/netty-common-4.1.67.Final.jar;C:/Users/Lidia/.m2/repository/io/netty/netty-buffer/4.1.67.Final/netty-buffer-4.1.67.Final.jar;C:/Users/Lidia/.m2/repository/io/netty/netty-codec/4.1.67.Final/netty-codec-4.1.67.Final.jar;C:/Users/Lidia/.m2/repository/io/netty/netty-handler/4.1.67.Final/netty-handler-4.1.67.Final.jar;C:/Users/Lidia/.m2/repository/io/netty/netty-resolver/4.1.67.Final/netty-resolver-4.1.67.Final.jar;C:/Users/Lidia/.m2/repository/io/netty/netty-transport/4.1.67.Final/netty-transport-4.1.67.Final.jar;C:/Users/Lidia/.m2/repository/com/itextpdf/itextpdf/5.5.13.2/itextpdf-5.5.13.2.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'C:/Users/Lidia/Desktop/FireBase2/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Lidia/Desktop/FireBase2/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'FireBase2 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/Lidia/Desktop/FireBase2/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'FireBase2 1.0-SNAPSHOT API'
+com.mycompany.firebase2
+'C:/Users/Lidia/Desktop/FireBase2/src/main/java/com/mycompany/firebase2/FireBaseService.java'
+'C:/Users/Lidia/Desktop/FireBase2/src/main/java/com/mycompany/firebase2/InterfazPrincipal.java'
+'C:/Users/Lidia/Desktop/FireBase2/src/main/java/com/mycompany/firebase2/Usuarios.java'
+C:\Users\Lidia\.m2\repository\com\google\firebase\firebase-admin\8.1.0\firebase-admin-8.1.0.jar = 1650382851518
+C:\Users\Lidia\.m2\repository\com\google\api-client\google-api-client\1.32.1\google-api-client-1.32.1.jar = 1650382849500
+C:\Users\Lidia\.m2\repository\com\google\oauth-client\google-oauth-client\1.31.5\google-oauth-client-1.31.5.jar = 1650382849914
+C:\Users\Lidia\.m2\repository\com\google\http-client\google-http-client-gson\1.39.2\google-http-client-gson-1.39.2.jar = 1650382849550
+C:\Users\Lidia\.m2\repository\com\google\http-client\google-http-client-apache-v2\1.39.2\google-http-client-apache-v2-1.39.2.jar = 1650382849913
+C:\Users\Lidia\.m2\repository\org\apache\httpcomponents\httpcore\4.4.14\httpcore-4.4.14.jar = 1650382850943
+C:\Users\Lidia\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar = 1650382852025
+C:\Users\Lidia\.m2\repository\com\google\api-client\google-api-client-gson\1.32.1\google-api-client-gson-1.32.1.jar = 1650382850943
+C:\Users\Lidia\.m2\repository\com\google\http-client\google-http-client\1.39.2\google-http-client-1.39.2.jar = 1650382851507
+C:\Users\Lidia\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar = 1650382851998
+C:\Users\Lidia\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar = 1650382851518
+C:\Users\Lidia\.m2\repository\io\opencensus\opencensus-api\0.28.0\opencensus-api-0.28.0.jar = 1650382852640
+C:\Users\Lidia\.m2\repository\io\opencensus\opencensus-contrib-http-util\0.28.0\opencensus-contrib-http-util-0.28.0.jar = 1650382852095
+C:\Users\Lidia\.m2\repository\com\google\api\api-common\1.10.4\api-common-1.10.4.jar = 1650382852139
+C:\Users\Lidia\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar = 1650382852142
+C:\Users\Lidia\.m2\repository\com\google\auto\value\auto-value-annotations\1.8.1\auto-value-annotations-1.8.1.jar = 1650382852152
+C:\Users\Lidia\.m2\repository\com\google\auth\google-auth-library-oauth2-http\0.26.0\google-auth-library-oauth2-http-0.26.0.jar = 1650382852647
+C:\Users\Lidia\.m2\repository\com\google\auth\google-auth-library-credentials\0.26.0\google-auth-library-credentials-0.26.0.jar = 1650382852663
+C:\Users\Lidia\.m2\repository\com\google\cloud\google-cloud-storage\1.118.0\google-cloud-storage-1.118.0.jar = 1650382852724
+C:\Users\Lidia\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar = 1650382852665
+C:\Users\Lidia\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar = 1650382852712
+C:\Users\Lidia\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar = 1650382852717
+C:\Users\Lidia\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar = 1650382852724
+C:\Users\Lidia\.m2\repository\com\google\http-client\google-http-client-jackson2\1.39.2\google-http-client-jackson2-1.39.2.jar = 1650382852791
+C:\Users\Lidia\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar = 1650382853706
+C:\Users\Lidia\.m2\repository\com\google\apis\google-api-services-storage\v1-rev20210127-1.32.1\google-api-services-storage-v1-rev20210127-1.32.1.jar = 1650382853221
+C:\Users\Lidia\.m2\repository\com\google\code\gson\gson\2.8.7\gson-2.8.7.jar = 1650382855311
+C:\Users\Lidia\.m2\repository\com\google\cloud\google-cloud-core\1.95.4\google-cloud-core-1.95.4.jar = 1650382853729
+C:\Users\Lidia\.m2\repository\com\google\api\grpc\proto-google-common-protos\2.3.2\proto-google-common-protos-2.3.2.jar = 1650382855275
+C:\Users\Lidia\.m2\repository\com\google\cloud\google-cloud-core-http\1.95.4\google-cloud-core-http-1.95.4.jar = 1650382854240
+C:\Users\Lidia\.m2\repository\com\google\http-client\google-http-client-appengine\1.39.2\google-http-client-appengine-1.39.2.jar = 1650382854240
+C:\Users\Lidia\.m2\repository\com\google\api\gax-httpjson\0.83.0\gax-httpjson-0.83.0.jar = 1650382855314
+C:\Users\Lidia\.m2\repository\com\google\api\gax\1.66.0\gax-1.66.0.jar = 1650382856620
+C:\Users\Lidia\.m2\repository\io\grpc\grpc-context\1.39.0\grpc-context-1.39.0.jar = 1650382855426
+C:\Users\Lidia\.m2\repository\com\google\api\grpc\proto-google-iam-v1\1.0.14\proto-google-iam-v1-1.0.14.jar = 1650382856806
+C:\Users\Lidia\.m2\repository\com\google\protobuf\protobuf-java\3.17.3\protobuf-java-3.17.3.jar = 1650382856786
+C:\Users\Lidia\.m2\repository\com\google\protobuf\protobuf-java-util\3.17.3\protobuf-java-util-3.17.3.jar = 1650382856616
+C:\Users\Lidia\.m2\repository\org\threeten\threetenbp\1.5.1\threetenbp-1.5.1.jar = 1650382856598
+C:\Users\Lidia\.m2\repository\com\google\cloud\google-cloud-firestore\2.6.1\google-cloud-firestore-2.6.1.jar = 1650382857045
+C:\Users\Lidia\.m2\repository\com\google\cloud\google-cloud-core-grpc\1.95.4\google-cloud-core-grpc-1.95.4.jar = 1650382856776
+C:\Users\Lidia\.m2\repository\io\grpc\grpc-core\1.39.0\grpc-core-1.39.0.jar = 1650382857064
+C:\Users\Lidia\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar = 1650382857198
+C:\Users\Lidia\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar = 1650382857193
+C:\Users\Lidia\.m2\repository\com\google\api\grpc\proto-google-cloud-firestore-v1\2.6.1\proto-google-cloud-firestore-v1-2.6.1.jar = 1650382858307
+C:\Users\Lidia\.m2\repository\com\google\cloud\proto-google-cloud-firestore-bundle-v1\2.6.1\proto-google-cloud-firestore-bundle-v1-2.6.1.jar = 1650382857260
+C:\Users\Lidia\.m2\repository\io\opencensus\opencensus-contrib-grpc-util\0.28.0\opencensus-contrib-grpc-util-0.28.0.jar = 1650382857252
+C:\Users\Lidia\.m2\repository\io\grpc\grpc-protobuf\1.39.0\grpc-protobuf-1.39.0.jar = 1650382857306
+C:\Users\Lidia\.m2\repository\io\grpc\grpc-protobuf-lite\1.39.0\grpc-protobuf-lite-1.39.0.jar = 1650382857302
+C:\Users\Lidia\.m2\repository\io\grpc\grpc-api\1.39.0\grpc-api-1.39.0.jar = 1650382857805
+C:\Users\Lidia\.m2\repository\com\google\api\gax-grpc\1.66.0\gax-grpc-1.66.0.jar = 1650382858319
+C:\Users\Lidia\.m2\repository\io\grpc\grpc-auth\1.39.0\grpc-auth-1.39.0.jar = 1650382857942
+C:\Users\Lidia\.m2\repository\io\grpc\grpc-netty-shaded\1.39.0\grpc-netty-shaded-1.39.0.jar = 1650382864637
+C:\Users\Lidia\.m2\repository\io\grpc\grpc-alts\1.39.0\grpc-alts-1.39.0.jar = 1650382861412
+C:\Users\Lidia\.m2\repository\io\grpc\grpc-grpclb\1.39.0\grpc-grpclb-1.39.0.jar = 1650382859835
+C:\Users\Lidia\.m2\repository\org\conscrypt\conscrypt-openjdk-uber\2.5.1\conscrypt-openjdk-uber-2.5.1.jar = 1650382862022
+C:\Users\Lidia\.m2\repository\io\grpc\grpc-stub\1.39.0\grpc-stub-1.39.0.jar = 1650382859323
+C:\Users\Lidia\.m2\repository\com\google\guava\guava\30.1.1-android\guava-30.1.1-android.jar = 1650382862531
+C:\Users\Lidia\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar = 1650382860865
+C:\Users\Lidia\.m2\repository\io\netty\netty-codec-http\4.1.67.Final\netty-codec-http-4.1.67.Final.jar = 1650382863037
+C:\Users\Lidia\.m2\repository\io\netty\netty-common\4.1.67.Final\netty-common-4.1.67.Final.jar = 1650382864099
+C:\Users\Lidia\.m2\repository\io\netty\netty-buffer\4.1.67.Final\netty-buffer-4.1.67.Final.jar = 1650382863562
+C:\Users\Lidia\.m2\repository\io\netty\netty-codec\4.1.67.Final\netty-codec-4.1.67.Final.jar = 1650382864136
+C:\Users\Lidia\.m2\repository\io\netty\netty-handler\4.1.67.Final\netty-handler-4.1.67.Final.jar = 1650382864656
+C:\Users\Lidia\.m2\repository\io\netty\netty-resolver\4.1.67.Final\netty-resolver-4.1.67.Final.jar = 1650382864129
+C:\Users\Lidia\.m2\repository\io\netty\netty-transport\4.1.67.Final\netty-transport-4.1.67.Final.jar = 1650382864678
+C:\Users\Lidia\.m2\repository\com\itextpdf\itextpdf\5.5.13.2\itextpdf-5.5.13.2.jar = 1654604208643
+C:\Users\Lidia\Desktop\FireBase2\src\main\java = 1654601603958
+C:\Users\Lidia\Desktop\FireBase2\target\site\apidocs\allclasses-index.html = 1654613508017
+C:\Users\Lidia\Desktop\FireBase2\target\site\apidocs\allpackages-index.html = 1654613508022
+C:\Users\Lidia\Desktop\FireBase2\target\site\apidocs\element-list = 1654613507878
+C:\Users\Lidia\Desktop\FireBase2\target\site\apidocs\help-doc.html = 1654613508070
+C:\Users\Lidia\Desktop\FireBase2\target\site\apidocs\index-all.html = 1654613508059
+C:\Users\Lidia\Desktop\FireBase2\target\site\apidocs\index.html = 1654613508063
+C:\Users\Lidia\Desktop\FireBase2\target\site\apidocs\jquery-ui.overrides.css = 1654613508167
+C:\Users\Lidia\Desktop\FireBase2\target\site\apidocs\member-search-index.js = 1654613508033
+C:\Users\Lidia\Desktop\FireBase2\target\site\apidocs\module-search-index.js = 1654613508024
+C:\Users\Lidia\Desktop\FireBase2\target\site\apidocs\overview-tree.html = 1654613507995
+C:\Users\Lidia\Desktop\FireBase2\target\site\apidocs\package-search-index.js = 1654613508027
+C:\Users\Lidia\Desktop\FireBase2\target\site\apidocs\script.js = 1654613508079
+C:\Users\Lidia\Desktop\FireBase2\target\site\apidocs\search.js = 1654613508084
+C:\Users\Lidia\Desktop\FireBase2\target\site\apidocs\serialized-form.html = 1654613507954
+C:\Users\Lidia\Desktop\FireBase2\target\site\apidocs\stylesheet.css = 1654613508076
+C:\Users\Lidia\Desktop\FireBase2\target\site\apidocs\tag-search-index.js = 1654613508036
+C:\Users\Lidia\Desktop\FireBase2\target\site\apidocs\type-search-index.js = 1654613508030
