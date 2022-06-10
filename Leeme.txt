@@ -1,0 +1,11 @@
+La estructura de las carpetas que se encuentran en este repositorio es la siguiente:
+
+-Documentacion: Aquí se encuentran los pdf con la documentación general del proyecto,
+el manual para el administrador y el manual para usuarios.
+
+-Ejecutables: los ejecutables de ambas aplicaciones desarrolladas.
+
+-Proyectos: el código de ambas aplicaciones. La carpeta AppBar corresponde a la 
+aplicación principal y la carpeta FireBase2 corresponde a la palicación secundaria.
+
+-Video: Carpeta donde se subirá el video de la aplicación funcionando.
